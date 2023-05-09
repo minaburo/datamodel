@@ -51,7 +51,7 @@ The framework for SCHC defines an abstract view of the rules, formalized with th
 
 --- middle
 
-# Introduction
+# Introduction.
 
 SCHC is a compression and fragmentation mechanism defined in {{RFC8724}}. {{RFC9363}} provides a YANG Data Model for formal representation of the Rules used either for compression/decompression (C/D) or fragmentation/reassembly (F/R). [LPWAN-ARCH] illustrates the use of several protocols for rule management using the YANG Data Model, such as CORECONF {{I-D.ietf-core-comi}}, NETCONF{{RFC6241}}, RESTCONF {{RFC8040}}. The inappropriate use of either of these protocols leads to some possible attacks. The goal of this document is to define a threat model, to summarize some possible attacks and to define augmentation to the existing Data Model in order to restrict the changes in the rules, and therefore the impact of possible attacks. It contains five main sections:
 
